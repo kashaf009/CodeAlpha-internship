@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What is the warranty period on your electronic products?",
+    "answer": "All our electronic products come with a 1-year manufacturer warranty covering manufacturing defects. Extended warranty of up to 2 additional years can be purchased at checkout."
+  },
+  {
+    "question": "How do I claim warranty for a defective product?",
+    "answer": "To claim warranty, visit the nearest authorized service center with your product and original invoice. You can also register a claim online through our support portal within the warranty period."
+  },
+  {
+    "question": "What is your return and refund policy?",
+    "answer": "We offer a 15-day return policy for unused products in original packaging. Refunds are processed to the original payment method within 7–10 business days after pickup and quality check."
+  },
+  {
+    "question": "How long does delivery take?",
+    "answer": "Standard delivery takes 3–5 business days for metro cities and 5–8 business days for other locations. Express delivery (1–2 days) is available in select cities for an additional charge."
+  },
+  {
+    "question": "Is cash on delivery (COD) available?",
+    "answer": "Yes, Cash on Delivery is available on orders up to ₹50,000 in most serviceable pin codes. COD availability is shown at checkout before you place your order."
+  },
+  {
+    "question": "Do your products come with a genuine bill and GST invoice?",
+    "answer": "Yes, every order includes a GST invoice. You will receive a soft copy via email and a hard copy inside the package, which is required for warranty claims."
+  },
+  {
+    "question": "How can I track my order?",
+    "answer": "Once your order ships, you will receive a tracking link via SMS and email. You can also track your order in real time from the 'My Orders' section of our website or app."
+  },
+  {
+    "question": "Are EMI options available on purchases?",
+    "answer": "Yes, we offer No-Cost EMI on major credit and debit cards for orders above ₹3,000. EMI tenure options of 3, 6, 9, and 12 months are available at checkout."
+  },
+  {
+    "question": "What should I do if my product arrives damaged?",
+    "answer": "Do not accept the package if the damage is visible at delivery, or report it within 48 hours of delivery with photos. We will arrange a free replacement or full refund after verification."
+  },
+  {
+    "question": "Do you provide installation services for products?",
+    "answer": "Free installation is included for large appliances like TVs, washing machines, and air conditioners. Our technician will contact you within 48 hours of delivery to schedule installation."
+  },
+  {
+    "question": "How do I reset my device to factory settings?",
+    "answer": "Go to Settings → System → Reset Options and select 'Erase All Data' (menu names vary by brand). Make sure to back up your data first, as a factory reset deletes everything on the device."
+  },
+  {
+    "question": "What is the battery backup of your wireless products?",
+    "answer": "Battery backup varies by product: wireless earbuds offer 5–8 hours per charge, smartwatches 2–7 days, and laptops 6–12 hours depending on usage and model."
+  },
+  {
+    "question": "Can I exchange my old product for a new one?",
+    "answer": "Yes, we offer an exchange program for select products like phones, TVs, and laptops. The exchange value is estimated at checkout and confirmed after a doorstep inspection of your old device."
+  },
+  {
+    "question": "Are your products covered under international warranty?",
+    "answer": "No, the standard warranty is valid only within India. International warranty applies only to select premium brands and models — check the product page for details before purchasing."
+  },
+  {
+    "question": "How do I connect the device to Wi-Fi?",
+    "answer": "Power on the device, open its Settings menu, select Wi-Fi, choose your network name, and enter the password. For smart home devices, use the companion app to complete the setup."
+  },
+  {
+    "question": "What accessories are included in the box?",
+    "answer": "Standard in-box accessories include a charger, USB cable, and user manual. Specific contents are listed on each product page — earphones, cases, or mounts may vary by model."
+  },
+  {
+    "question": "Do you sell original and brand-new products only?",
+    "answer": "Yes, we are an authorized retailer and sell only 100% genuine, brand-new, sealed products sourced directly from manufacturers. Every product carries a valid serial number for warranty verification."
+  },
+  {
+    "question": "How can I update the software or firmware of my device?",
+    "answer": "Connect the device to Wi-Fi, go to Settings → Software Update, and tap 'Check for Updates'. Alternatively, download the latest firmware from the official brand website and follow the update guide."
+  },
+  {
+    "question": "What is the difference between a smart TV and a normal LED TV?",
+    "answer": "A smart TV runs on an operating system (Android, WebOS, etc.) and supports apps like YouTube and Netflix, Wi-Fi, and screen mirroring. A normal LED TV only displays content from external sources like cable or HDMI devices."
+  },
+  {
+    "question": "How do I contact customer support?",
+    "answer": "You can reach our support team at 1800-XXX-XXXX (toll-free, 9 AM–9 PM, all days) or email support@example.com. Live chat is also available on our website and app."
+  }
+]
