@@ -71,7 +71,23 @@ for index in range(0, len(visible_questions), 2):
                     }
                 )
 
-if visible_count < len(SUGGESTED_QUESTIONS):
+can_load_more = visible_count < len(SUGGESTED_QUESTIONS)
+can_show_less = visible_count > QUESTIONS_PER_PAGE
+
+if can_load_more and can_show_less:
+    load_col, less_col = st.columns(2)
+    with load_col:
+        if st.button("Load more questions", key="load_more_questions", use_container_width=True):
+            st.session_state.visible_questions = min(
+                visible_count + QUESTIONS_PER_PAGE,
+                len(SUGGESTED_QUESTIONS),
+            )
+            st.rerun()
+    with less_col:
+        if st.button("Show less questions", key="show_less_questions", use_container_width=True):
+            st.session_state.visible_questions = QUESTIONS_PER_PAGE
+            st.rerun()
+elif can_load_more:
     if st.button("Load more questions", key="load_more_questions", use_container_width=True):
         st.session_state.visible_questions = min(
             visible_count + QUESTIONS_PER_PAGE,
@@ -79,7 +95,9 @@ if visible_count < len(SUGGESTED_QUESTIONS):
         )
         st.rerun()
 else:
-    st.caption("All questions shown")
+    if st.button("Show less questions", key="show_less_questions", use_container_width=True):
+        st.session_state.visible_questions = QUESTIONS_PER_PAGE
+        st.rerun()
 
 # ---------------------------------------------------------------------------
 # Chat history
